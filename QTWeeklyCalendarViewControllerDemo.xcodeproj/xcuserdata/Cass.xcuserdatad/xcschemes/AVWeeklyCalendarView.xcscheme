@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "432DDEEC1C9FB0E7006EC42C"
-               BuildableName = "AVWeeklyCalendarView.app"
-               BlueprintName = "AVWeeklyCalendarView"
-               ReferencedContainer = "container:AVWeeklyCalendarView.xcodeproj">
+               BuildableName = "QTWeeklyCalendarView.app"
+               BlueprintName = "QTWeeklyCalendarViewControllerDemo"
+               ReferencedContainer = "container:QTWeeklyCalendarViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432DDEEC1C9FB0E7006EC42C"
-            BuildableName = "AVWeeklyCalendarView.app"
-            BlueprintName = "AVWeeklyCalendarView"
-            ReferencedContainer = "container:AVWeeklyCalendarView.xcodeproj">
+            BuildableName = "QTWeeklyCalendarView.app"
+            BlueprintName = "QTWeeklyCalendarViewControllerDemo"
+            ReferencedContainer = "container:QTWeeklyCalendarViewControllerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432DDEEC1C9FB0E7006EC42C"
-            BuildableName = "AVWeeklyCalendarView.app"
-            BlueprintName = "AVWeeklyCalendarView"
-            ReferencedContainer = "container:AVWeeklyCalendarView.xcodeproj">
+            BuildableName = "QTWeeklyCalendarView.app"
+            BlueprintName = "QTWeeklyCalendarViewControllerDemo"
+            ReferencedContainer = "container:QTWeeklyCalendarViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "432DDEEC1C9FB0E7006EC42C"
-            BuildableName = "AVWeeklyCalendarView.app"
-            BlueprintName = "AVWeeklyCalendarView"
-            ReferencedContainer = "container:AVWeeklyCalendarView.xcodeproj">
+            BuildableName = "QTWeeklyCalendarView.app"
+            BlueprintName = "QTWeeklyCalendarViewControllerDemo"
+            ReferencedContainer = "container:QTWeeklyCalendarViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

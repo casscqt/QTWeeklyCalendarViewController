@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4301DB491D147CF300458EF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB311D147CF300458EF9 /* AppDelegate.m */; };
+		4301DB4A1D147CF300458EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4301DB321D147CF300458EF9 /* Assets.xcassets */; };
+		4301DB4B1D147CF300458EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4301DB331D147CF300458EF9 /* LaunchScreen.storyboard */; };
+		4301DB4C1D147CF300458EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4301DB351D147CF300458EF9 /* Main.storyboard */; };
+		4301DB4D1D147CF300458EF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4301DB381D147CF300458EF9 /* Info.plist */; };
+		4301DB4E1D147CF300458EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB391D147CF300458EF9 /* main.m */; };
+		4301DB4F1D147CF300458EF9 /* NSDate+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB3D1D147CF300458EF9 /* NSDate+CL.m */; };
+		4301DB501D147CF300458EF9 /* NSDictionary+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB3F1D147CF300458EF9 /* NSDictionary+CL.m */; };
+		4301DB511D147CF300458EF9 /* AVDateInfoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB421D147CF300458EF9 /* AVDateInfoLabel.m */; };
+		4301DB521D147CF300458EF9 /* WeeklyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB441D147CF300458EF9 /* WeeklyCollectionViewCell.m */; };
+		4301DB531D147CF300458EF9 /* WeeklyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB461D147CF300458EF9 /* WeeklyViewController.m */; };
+		4301DB541D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301DB481D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4301DB301D147CF300458EF9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4301DB311D147CF300458EF9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4301DB321D147CF300458EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4301DB341D147CF300458EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4301DB361D147CF300458EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4301DB381D147CF300458EF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4301DB391D147CF300458EF9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4301DB3C1D147CF300458EF9 /* NSDate+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CL.h"; sourceTree = "<group>"; };
+		4301DB3D1D147CF300458EF9 /* NSDate+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CL.m"; sourceTree = "<group>"; };
+		4301DB3E1D147CF300458EF9 /* NSDictionary+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CL.h"; sourceTree = "<group>"; };
+		4301DB3F1D147CF300458EF9 /* NSDictionary+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CL.m"; sourceTree = "<group>"; };
+		4301DB411D147CF300458EF9 /* AVDateInfoLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVDateInfoLabel.h; sourceTree = "<group>"; };
+		4301DB421D147CF300458EF9 /* AVDateInfoLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVDateInfoLabel.m; sourceTree = "<group>"; };
+		4301DB431D147CF300458EF9 /* WeeklyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyCollectionViewCell.h; sourceTree = "<group>"; };
+		4301DB441D147CF300458EF9 /* WeeklyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyCollectionViewCell.m; sourceTree = "<group>"; };
+		4301DB451D147CF300458EF9 /* WeeklyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyViewController.h; sourceTree = "<group>"; };
+		4301DB461D147CF300458EF9 /* WeeklyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyViewController.m; sourceTree = "<group>"; };
+		4301DB471D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTWeeklyCalendarViewControllerDemo.h; sourceTree = "<group>"; };
+		4301DB481D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTWeeklyCalendarViewControllerDemo.m; sourceTree = "<group>"; };
+		432DDEED1C9FB0E7006EC42C /* QTWeeklyCalendarViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTWeeklyCalendarViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432DDEEA1C9FB0E7006EC42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4301DB2F1D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4301DB3A1D147CF300458EF9 /* QTWeeklyCalendarView */,
+				4301DB471D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.h */,
+				4301DB481D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.m */,
+				4301DB301D147CF300458EF9 /* AppDelegate.h */,
+				4301DB311D147CF300458EF9 /* AppDelegate.m */,
+				4301DB381D147CF300458EF9 /* Info.plist */,
+				4301DB391D147CF300458EF9 /* main.m */,
+				4301DB321D147CF300458EF9 /* Assets.xcassets */,
+				4301DB331D147CF300458EF9 /* LaunchScreen.storyboard */,
+				4301DB351D147CF300458EF9 /* Main.storyboard */,
+			);
+			path = QTWeeklyCalendarViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		4301DB3A1D147CF300458EF9 /* QTWeeklyCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				4301DB3B1D147CF300458EF9 /* tool */,
+				4301DB401D147CF300458EF9 /* View */,
+				4301DB451D147CF300458EF9 /* WeeklyViewController.h */,
+				4301DB461D147CF300458EF9 /* WeeklyViewController.m */,
+			);
+			path = QTWeeklyCalendarView;
+			sourceTree = "<group>";
+		};
+		4301DB3B1D147CF300458EF9 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				4301DB3C1D147CF300458EF9 /* NSDate+CL.h */,
+				4301DB3D1D147CF300458EF9 /* NSDate+CL.m */,
+				4301DB3E1D147CF300458EF9 /* NSDictionary+CL.h */,
+				4301DB3F1D147CF300458EF9 /* NSDictionary+CL.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		4301DB401D147CF300458EF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4301DB411D147CF300458EF9 /* AVDateInfoLabel.h */,
+				4301DB421D147CF300458EF9 /* AVDateInfoLabel.m */,
+				4301DB431D147CF300458EF9 /* WeeklyCollectionViewCell.h */,
+				4301DB441D147CF300458EF9 /* WeeklyCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		432DDEE41C9FB0E7006EC42C = {
+			isa = PBXGroup;
+			children = (
+				4301DB2F1D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo */,
+				432DDEEE1C9FB0E7006EC42C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432DDEEE1C9FB0E7006EC42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432DDEED1C9FB0E7006EC42C /* QTWeeklyCalendarViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432DDEEC1C9FB0E7006EC42C /* QTWeeklyCalendarViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432DDF041C9FB0E7006EC42C /* Build configuration list for PBXNativeTarget "QTWeeklyCalendarViewControllerDemo" */;
+			buildPhases = (
+				432DDEE91C9FB0E7006EC42C /* Sources */,
+				432DDEEA1C9FB0E7006EC42C /* Frameworks */,
+				432DDEEB1C9FB0E7006EC42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTWeeklyCalendarViewControllerDemo;
+			productName = AVWeeklyCalendarView;
+			productReference = 432DDEED1C9FB0E7006EC42C /* QTWeeklyCalendarViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432DDEE51C9FB0E7006EC42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Cass;
+				TargetAttributes = {
+					432DDEEC1C9FB0E7006EC42C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 432DDEE81C9FB0E7006EC42C /* Build configuration list for PBXProject "QTWeeklyCalendarViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432DDEE41C9FB0E7006EC42C;
+			productRefGroup = 432DDEEE1C9FB0E7006EC42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432DDEEC1C9FB0E7006EC42C /* QTWeeklyCalendarViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432DDEEB1C9FB0E7006EC42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301DB4D1D147CF300458EF9 /* Info.plist in Resources */,
+				4301DB4C1D147CF300458EF9 /* Main.storyboard in Resources */,
+				4301DB4A1D147CF300458EF9 /* Assets.xcassets in Resources */,
+				4301DB4B1D147CF300458EF9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432DDEE91C9FB0E7006EC42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301DB4E1D147CF300458EF9 /* main.m in Sources */,
+				4301DB501D147CF300458EF9 /* NSDictionary+CL.m in Sources */,
+				4301DB4F1D147CF300458EF9 /* NSDate+CL.m in Sources */,
+				4301DB541D147CF300458EF9 /* QTWeeklyCalendarViewControllerDemo.m in Sources */,
+				4301DB521D147CF300458EF9 /* WeeklyCollectionViewCell.m in Sources */,
+				4301DB531D147CF300458EF9 /* WeeklyViewController.m in Sources */,
+				4301DB491D147CF300458EF9 /* AppDelegate.m in Sources */,
+				4301DB511D147CF300458EF9 /* AVDateInfoLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4301DB331D147CF300458EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4301DB341D147CF300458EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4301DB351D147CF300458EF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4301DB361D147CF300458EF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432DDF021C9FB0E7006EC42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		432DDF031C9FB0E7006EC42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432DDF051C9FB0E7006EC42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTWeeklyCalendarViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cass.AVWeeklyCalendarView;
+				PRODUCT_NAME = QTWeeklyCalendarViewControllerDemo;
+			};
+			name = Debug;
+		};
+		432DDF061C9FB0E7006EC42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTWeeklyCalendarViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cass.AVWeeklyCalendarView;
+				PRODUCT_NAME = QTWeeklyCalendarViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432DDEE81C9FB0E7006EC42C /* Build configuration list for PBXProject "QTWeeklyCalendarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432DDF021C9FB0E7006EC42C /* Debug */,
+				432DDF031C9FB0E7006EC42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432DDF041C9FB0E7006EC42C /* Build configuration list for PBXNativeTarget "QTWeeklyCalendarViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432DDF051C9FB0E7006EC42C /* Debug */,
+				432DDF061C9FB0E7006EC42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432DDEE51C9FB0E7006EC42C /* Project object */;
+}
